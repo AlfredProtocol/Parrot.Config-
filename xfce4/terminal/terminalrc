@@ -37,4 +37,5 @@ FontName=Hack Nerd Font Mono Bold 12
 ColorCursorUseDefault=FALSE
 ColorCursorForeground=#ffffffffffff
 ColorCursor=#ffffffffffff
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 
