@@ -8,3 +8,5 @@ vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 end
 Transparent()
 
+-- Cargar overrides para deshabilitar plugins
+require("config.disable")
