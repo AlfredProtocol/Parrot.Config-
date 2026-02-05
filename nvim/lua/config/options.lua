@@ -12,7 +12,7 @@ vim.diagnostic.enable(false) -- quita triángulos, subrayados, virtual text, flo
 -- OPCIONES BÁSICAS DE NEOVIM
 -- =========================
 vim.opt.number = true -- número de línea absoluto
-vim.opt.relativenumber = true -- números relativos
+vim.opt.relativenumber = false -- números relativos
 vim.opt.cursorline = true -- resaltar línea actual
 vim.opt.wrap = false -- no ajustar líneas
 vim.opt.tabstop = 4 -- ancho de tabulación
@@ -46,4 +46,7 @@ vim.g.loaded_mini_ai = 1
 vim.g.loaded_noice = 1
 vim.g.loaded_which_key = 1
 vim.g.loaded_flash = 1
+
+vim.opt.list = false
+
 require("config.diagnostics")
